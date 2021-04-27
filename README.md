@@ -42,4 +42,8 @@ docker run -p 8080:80 --network mynet -d rmfreitas/nginx-pfa-1
 
 
 
-# 💻 Expected result
+# 💻 Resultado esperado
+
+<p align="center">
+  <img align="center" src="request.jpeg" width="600" border="0">
+</p>
