@@ -1,13 +1,18 @@
 Executar os comandos listados abaixo:
 
-### CREATE A DOCKER BRIDGE NETWORK:
+1. CREATE A DOCKER BRIDGE NETWORK:
+```bash
 docker network create mynet
-
-### RUN MYSQL container:
+```
+1. RUN MYSQL container:
+```bash
 docker run --name mysqldb --network mynet -d rmfreitas/mysql-pfa-1
-
-### RUN NODE container:
+```
+3. RUN NODE container:
+```bash
 docker run --name backendnode --network mynet -d rmfreitas/node-pfa-1
-
-### RUN MYSQL container:
+```
+4. RUN MYSQL container:
+```bash
 docker run -p 8080:80 --network mynet -d rmfreitas/nginx-pfa-1
+```
