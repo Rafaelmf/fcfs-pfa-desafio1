@@ -4,7 +4,7 @@ Executar os comandos listados abaixo:
 ```bash
 docker network create mynet
 ```
-1. RUN MYSQL container:
+2. RUN MYSQL container:
 ```bash
 docker run --name mysqldb --network mynet -d rmfreitas/mysql-pfa-1
 ```
