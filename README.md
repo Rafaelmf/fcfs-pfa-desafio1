@@ -1,7 +1,7 @@
 > Provendo dados de um banco mysql através de uma API node e expondo o serviço atrvés de um proxy reverso (nginx)
 
 <p align="center">
-  <img align="center" src="./.git/isoflow.png" width="600" border="0">
+  <img align="center" src="isoflow.png" width="600" border="0">
 </p>
 
 # 📘 Infos
